@@ -1,0 +1,3 @@
+# Libretro/gbaconv.c from VBA-next
+
+This is a version of gbaconv.c from the VBA-next project that can be easily compiled on Windows/Mac/Linux. The original code would not compile on Windows due to getopt.h not being found. I have added the code for getopt.h directly to allow for compilation. All code was licensed under GLP 2 and will remain under GPL 2. To use just run the compiled binary on the .srm save file to convert.
